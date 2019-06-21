@@ -1,4 +1,8 @@
 .jumbotron {
     text-align: center;
-}
+    font-family: 'Anton', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    border: solid red 2px;
+};
 
