@@ -14,29 +14,30 @@
   <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-database.js"></script>
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alfa+Slab+One|Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 <body background="./assets/images/smokebcg.png">
   <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-color: rgb(153, 153, 160)">
       <div class="row">
-        <div class="col-4">
-          <img src="./assets/images/blaine_the_monorail.jpg" width="350px">
-        </div>
-        <div class="col-8">
+        <div class="col-6">
             <h1 class="display-4">Trains.</h1>
-            <h4> Choo Choo motherfucker.</h4>
+            <h4> Choo Choo motherfucker. <i class="fas fa-skull"></i></h4>
         </div>
+        <div class="col-6">
+            <img src="./assets/images/blaine_the_monorail.jpg" width="350px">
+          </div>
        
       </div>
     </div>
-    <div class="card">
+    <div class="card" style="border: solid red 2px; background-color: rgb(153, 153, 160)">
 
       <div class="card-header">
         Current Train Schedule
       </div>
       <div class="card m-3" id="topArticles">
-        <div class="card">
+        <div class="card" style="background-color: rgb(197, 197, 204)">
           <!-- table goes here -->
           <table class="table">
             <thead>
@@ -55,11 +56,11 @@
         </div>
       </div>
     </div>
-    <div class="card pb-2">
+    <div class="card pb-2" style="border: solid red 2px; background-color: rgb(153, 153, 160)">
       <div class="card-header mg-lg ">
         Add Train
       </div>
-      <div class="container mt-3">
+      <div class="container mt-3" style="background-color: rgb(197, 197, 204)">
         <form id="my-form">
           <div class="form-group">
             <label for="addedTrainName">Train Name</label>
@@ -92,3 +93,5 @@
 </body>
 
 </html>
+
+<!-- style="background-image: url('./assets/images/greysmoke.jpg'); opacity: 0.2;" -->
